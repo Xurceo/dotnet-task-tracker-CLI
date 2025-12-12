@@ -10,6 +10,8 @@
 
 A project used to track and manage your tasks
 
+This project is implementaion of task-tracker idea from [roadmap.sh](https://roadmap.sh/projects/task-tracker)
+
 </div>
 
 ## Installation
