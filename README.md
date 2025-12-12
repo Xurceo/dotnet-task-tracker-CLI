@@ -43,6 +43,50 @@ This project is implementaion of task-tracker idea from [roadmap.sh](https://roa
     sudo chmod +x install.sh && ./install.sh
     ```
 
+## Usage
+
+### After you installed it on your machine, you can:
+
+1.  Create a task
+
+    ```sh
+    task-cli add "Sample Task"
+    ```
+
+2. Edit description and statuses of the tasks
+   
+    ```sh
+    task-cli update 1 "Updated Sample Task"
+    ```
+
+    ```sh
+    task-cli mark 1 done
+    task-cli mark 2 in-progress
+    task-cli mark 3 todo
+    ```
+    
+3. List all tasks
+
+    ```sh
+    task-cli list
+    ```
+    
+    And even filter by status
+
+    ```sh
+    task-cli list done
+    task-cli list in-progress
+    task-cli list todo
+    ```
+
+4. Delete tasks
+
+    ```sh
+    task-cli delete 1
+    ```
+
+### By default, tasks are saved in JSON file named DefaultList.JSON in your documents folder
+
 ## Support the development
 
 If you like what I do
